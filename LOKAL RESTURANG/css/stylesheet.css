@@ -1,0 +1,66 @@
+
+.flex-container {
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: center;
+}
+
+.flex-container a {
+  background-color: hsl(0, 0%, 95%);
+  margin: 40px;
+  padding: 50px;
+  font-size: 50px;
+}
+
+.container2 {
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.section1, .section3, .section4 {
+  text-align: center;
+  }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.meny {
+  display: flex;
+  flex-direction: column;
+  background-color: burlywood;
+  align-items: stretch;
+  justify-content: center;
+  align-content: center;
+  justify-content: space-evenly;
+  margin: 50px;
+  padding: 30px;
+  font-size: 18px;
+
+}
+
+.förrätter, .biffrätter, .fiskochskaldjur, .husetsspecial {
+  color:hsl(0, 0%, 95%);
+  background-color: rgb(231, 193, 68);
+  border: 4px solid rgb(218, 218, 77);
+  margin-bottom: .7rem;
+  margin-left:.9rem;
+  margin-right:.9rem;
+}
+
+.kycklingrätter, .lammrätter, .vegetariskt {
+  background-color: rgb(131, 180, 90);
+  border:4px solid rgba(78, 179, 20, 0.418);
+  margin-bottom: .7rem;
+  margin-left:.9rem;
+  margin-right:.9rem;
+}
+
+footer {
+  text-align: center;
+  font-size: medium;
+  font-stretch: ultra-expanded;
+}
